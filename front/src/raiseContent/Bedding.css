@@ -1,0 +1,15 @@
+.bedding {
+    margin: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+  
+.bedding ul {
+    list-style-type: none;
+}
+  
+.bedding li {
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
+}

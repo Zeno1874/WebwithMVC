@@ -1,0 +1,43 @@
+.choice {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-bottom: 2rem;
+}
+
+.display {
+    margin: 0.5rem;
+    grid-column: span 3;
+    background-color: var(--color-card-bg);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.display img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.display h1 {
+    align-self: center;
+}
+
+@media (max-width: 70rem) {
+    .display {
+        grid-column: span 4;
+    }
+}
+
+@media (max-width: 50rem) {
+    .display {
+        grid-column: span 6;
+    }
+}
+
+@media (max-width: 40rem) {
+    .display {
+        grid-column: span 12;
+    }
+}

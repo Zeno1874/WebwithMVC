@@ -1,0 +1,13 @@
+main {
+    margin: 0;
+    background-color: var(--color-page-bg);
+}
+
+.panel-container {
+    margin: 1rem;
+}
+
+.welcome {
+    font: 1.5rem sans-serif;  
+    padding-top: 0;
+}

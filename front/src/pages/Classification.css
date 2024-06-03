@@ -1,0 +1,31 @@
+main {
+    margin: 0;
+    background-color: var(--color-page-bg);
+}
+
+.text-intro {
+    padding: 1.5rem;
+}
+
+.text-intro p {
+    font: 1.8rem sans-serif;
+    line-height: 2rem;
+}
+
+.card_container {
+    padding: 0.4rem;   
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.external-link {
+    padding: 2rem;
+    text-align: right;
+    font-weight: bold;
+}
+
+.external-link-go {
+    padding: 1.2rem;
+    font-weight: bold;
+    border-radius: 10rem;
+}

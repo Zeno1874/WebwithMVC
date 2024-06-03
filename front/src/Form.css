@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    flex-direction: row;
+    
+}
+.subscribe_area {
+    margin: 1rem;
+    padding-right: 1.5rem;
+}
+
+.subscribe_area label {
+    font: 1.7rem sans-serif;
+}
+
+.subscribe_area input {
+    font-size: 1.3rem;
+    padding-right: 2rem;
+    border-radius: 5px;
+}
+
+.error {
+    background-color: var(--color-page-bg);
+    color: red;
+    box-shadow: 0 2px 4px var(--color-text);
+}
+
+@media (max-width: 45rem) {
+    form {
+        flex-direction: column;
+    }
+}

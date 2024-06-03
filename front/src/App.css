@@ -1,0 +1,31 @@
+.app {
+    background-color: var(--color-page-bg);
+}
+
+.welcome {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+    padding-top: 2rem;
+}
+
+.welcome p {
+    font: 1.8rem sans-serif;
+    line-height: 2rem;
+}
+
+.light-theme {
+    --color-page-bg: #fff6d2;
+    --color-header-bg:#ffbb33;
+    --color-panel-bg: rgba(255, 241, 131, 0.668);
+    --color-card-bg: #ffda8f;
+    --color-text: #000000;
+}
+  
+.dark-theme {
+    --color-page-bg: grey;
+    --color-header-bg:#222222;
+    --color-panel-bg: #3231319f;
+    --color-card-bg: #3736369f;
+    --color-text: #ffffff;
+}

@@ -1,0 +1,6 @@
+.theme_choice {
+    display: flex;
+    background-color: var(--color-header-bg);
+    justify-content: flex-end;
+    padding-right: 1rem;
+}

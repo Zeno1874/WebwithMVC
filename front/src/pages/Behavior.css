@@ -1,0 +1,5 @@
+.panel-container {
+    margin: 0;
+    padding: 1rem;
+    background-color: var(--color-page-bg);
+}

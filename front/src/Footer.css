@@ -1,0 +1,18 @@
+.footer {   
+    background-color: var(--color-header-bg);
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe_form {
+    margin: 2rem;
+
+}
+
+.footer h4 {
+    align-self: center;
+}

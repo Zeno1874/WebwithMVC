@@ -1,0 +1,45 @@
+.setups {
+    margin: 2rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.9rem;
+}
+  
+.setups li {
+    line-height: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.detailed-instruction {
+    display: flex;
+    flex-direction: row;
+}
+  
+.demo-house {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-bottom: 2rem;
+}
+  
+.demo-house h3 {
+    grid-column: span 12;
+}
+  
+.demo-house img {
+    grid-column: span 4;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 82rem) {
+    .detailed-instruction {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 40rem) {
+    .demo-house img {
+        grid-column: span 12;
+    }
+}

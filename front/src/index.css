@@ -1,0 +1,29 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: monospace;
+  
+  --color-page-bg: #fff6d2;
+  --color-header-bg:#ffbb33;
+  --color-panel-bg: rgba(255, 241, 131, 0.668);
+  --color-card-bg: #ffda8f;
+  --color-text: black;
+  --color-modal-bg: rgba(0, 0, 0, 0.453);
+}
+
+body {
+  margin: 0;
+}
+
+.light-theme {
+  background-color: var(--color-page-bg);
+  color: #000000;
+}
+
+.dark-theme {
+  /* Define styles for the dark theme */
+  background-color: #333333;
+  color: #ffffff;
+}

@@ -1,0 +1,15 @@
+.food {
+    margin: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .food ul {
+    list-style-type: none;
+  }
+  
+  .food li {
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
+  }

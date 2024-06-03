@@ -1,0 +1,27 @@
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1.5rem;
+  color: var(--color-header-bg);
+  background-color: var(--color-text);
+  border: 1px solid var(--color-header-bg);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+  
+button:hover {
+  color: var(--color-text);
+  background-color: var(--color-page-bg);
+  border: 1px solid var(--color-header-bg);
+}
+  
+a {
+  color: var(--color-text);
+  font: 1.8rem sans-serif;
+}
+
+a:hover {
+  color: var(--color-header-bg);
+  background-color: var(--color-text);
+}

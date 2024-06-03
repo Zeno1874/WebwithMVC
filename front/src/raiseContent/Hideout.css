@@ -1,0 +1,16 @@
+.hideout {
+    margin: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+    
+.hideout p {
+    line-height: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+  
+.hideout li {
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
+}
